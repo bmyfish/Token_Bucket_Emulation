@@ -1,6 +1,7 @@
 # Token_Bucket_Emulation
 The code implemented a token bucket traffic shaper system, which simulate a traffic shaper who transmits packets controlled by a token bucket filter 
 using multi-threading within a single process.<br \>
+
 Packets arrive at the token bucket filter at a rate of lambda packets per secondand each packet requires P tokens in order for it to be eligiable for transmission. 
 (Packets that are eligiable for transmission are queued at the Q2 facility.) When a packet arrives, 
 if Q1 is not empty, it will just get queued onto the Q1 facility. Otherwise, it will check if the token bucket
